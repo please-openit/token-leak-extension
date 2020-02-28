@@ -495,6 +495,7 @@ chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.cleanup == "all")
             window.localStorage.removeItem("htmlOutput");
+            window.localStorage.removeItem("callsBeforeToken");
         sendResponse({ farewell: "ok" });
     });
 
