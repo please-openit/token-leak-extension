@@ -2,6 +2,12 @@
 
 **TL;DR** This is a chrome extension that checks oauth2/openid connect authentication process on any website. Just install it, log in and check for alerts and recommendations.
 
+## How to test
+
+Our authentication app [https://auth.please-open.it](https://auth.please-open.it) we use for portals and doors.
+
+[https://www.oauth.com/playground/](https://www.oauth.com/playground/) a great tool with all flows implemented, step by step and great details.
+
 # Company
 
 [Please-open.it](https://please-open.it) is a french company, specialized in authentication.
